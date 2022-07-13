@@ -8,6 +8,8 @@ This repository was created during week 9 of the MIT xPro Professional Certifica
 
 ## Installation - Some concepts to help people get started with your project
 
+Click the button to start tracking the bus. If the marker does not move after 15 seconds, then go into the console and figure out which buses are currently moving. Update the .js file with a new busID. If the marker disappears, then zoom out on the map. The bus might be off the screen.
+
 Register to [mapbox](https://www.mapbox.com/) in order create an [access token](https://docs.mapbox.com/help/getting-started/access-tokens/) and [create map](https://docs.mapbox.com/mapbox-gl-js/api/map/) and [marker](https://docs.mapbox.com/mapbox-gl-js/api/markers/#marker).
 
 The [Route 1 bus locations](https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip) are pulled from a database that is continuously updated.
